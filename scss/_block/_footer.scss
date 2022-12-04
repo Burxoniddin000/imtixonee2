@@ -59,23 +59,58 @@
     height: 24px;
 }
 
-.footer__termes{
+.footer__termes {
     display: flex;
     align-items: center;
     justify-content: space-between;
     max-width: 1180px;
     margin: 0 auto;
+    margin-top: 40px;
 }
 
-.footer__about{
+.footer__about {
     display: flex;
     align-items: center;
     gap: 60px;
 }
 
-.footer__item-link-img{
+.footer__item-link-img {
+    display: flex;
+    gap: 40px;
+}
+
+.footer__href {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #00171F;
+}
+
+.footer__imge {
     display: flex;
     align-items: center;
-    gap: 40px
-    ;
+    justify-content: space-between;
+    max-width: 1180px;
+    margin: 0 auto;
+    margin-top: 80px;
 }
+
+.footer__rights {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #667479;
+}
+
+.footer__frame {
+    width: 115px;
+    height: 40px
+}
+
+.footer__terms {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #667479;
+}
+
