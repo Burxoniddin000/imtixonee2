@@ -1,0 +1,54 @@
+.sitx__footer {
+    background: linear-gradient(102.87deg, #FCEED5 6.43%, #FCEED5 78.33%, #FFE7BA 104.24%);
+    border-radius: 40px 40px 0px 0px;
+    height: 440px;
+    margin-top: 60px;
+}
+
+.sitx-foote__input {
+    background: #003459;
+    border-radius: 16px;
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 32px;
+}
+
+.footer__inner {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FDFDFD;
+    max-width: 379px;
+}
+
+.footer__item-input {
+    background: #FFFFFF;
+    border-radius: 14px;
+    width: 707px;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.footer__taxt {
+    background: #FFFFFF;
+    border: 1px solid #99A2A5;
+    border-radius: 8px;
+    width: 500px;
+    padding: 14px 30px;
+}
+
+.footer__link {
+    background: #003459;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FDFDFD;
+    padding: 14px 30px;
+
+}
