@@ -3,6 +3,7 @@
     background-repeat: no-repeat;
     background-size: 100%;
     max-width: 1200px;
+    width: 100%;
     margin: 0 auto;
     margin-top: 60px;
     display: flex;
@@ -12,11 +13,12 @@
 
 .fun__img {
     max-width: 513px;
-    height: 328px;
-    margin-bottom: -70px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
 }
 
-.fun__more{
+.fun__more {
     margin-right: 65px;
     text-align: end;
 }
@@ -42,7 +44,8 @@
     font-weight: 700;
     font-size: 36px;
     line-height: 54px;
-    color: #003459;;
+    color: #003459;
+    ;
 }
 
 .fun__taxt {
@@ -54,6 +57,128 @@
     margin: 0 auto;
 }
 
-.fun{
-    margin-bottom: 78px;
+.fun {
+    margin-bottom: 60px;
+}
+
+@media screen and (max-width:1031px) {
+    .fun__container {
+        background-image: url(../../img/Banner2.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        max-width: 1200px;
+        margin: 0 auto;
+        margin-top: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+
+    .fun__more {
+        margin-right: 65px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .fun__item {
+        font-weight: 800;
+        font-size: 52px;
+        line-height: 68px;
+        color: #003459;
+        margin-top: 56px;
+    }
+
+    .fun__explore {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        gap: 20px;
+        padding-bottom: 56px;
+        padding-top: 24px;
+    }
+
+    .fun__inner {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 54px;
+        color: #003459;
+        ;
+    }
+
+    .fun__taxt {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+        color: #242B33;
+        max-width: 394px;
+        margin: 0 auto;
+    }
+
+}
+
+@media screen and (max-width:650px) {
+    .fun__container {
+        background-image: url(../../img/Banner2.png);
+        background-repeat: no-repeat;
+
+    }
+
+    .fun__img {
+        max-height: 300px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        flex-grow: 0;
+    }
+
+    .fun__more {
+        margin-right: 65px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .fun__item {
+        font-size: 36px;
+        line-height: 54px;
+        margin-top: 32px;
+    }
+
+    .fun__explore {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        padding-bottom: 25px;
+        padding-top: 32px;
+    }
+
+    .fun__inner {
+        font-size: 28px;
+        line-height: 38px;
+        line-height: 54px;
+        color: #003459;
+        
+    }
+
+    .fun__taxt {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+        color: #242B33;
+        max-width: 382px;
+        margin: 0 auto;
+    }
+
+    .fun {
+        margin-bottom: 40px;
+    }
+}
+@media screen and (max-width:550px) {
+    .fun__container {
+        background-image: url(../../img/Banner2.png);
+        background-repeat: no-repeat;
+        background-size: auto;
+
+    }
 }

@@ -1,0 +1,87 @@
+.useful__container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.useful__you {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.useful__pet {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #003459;
+}
+
+.useful__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.useful__img {
+    width: 364px;
+    height: 240px;
+
+}
+
+.useful__what {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #00171F;
+}
+
+.useful__taxt {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #242B33;
+    max-width: 348px;
+}
+
+.useful__link {
+    background: #00A7E7;
+    border-radius: 28px;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 16px;
+    color: #FDFDFD;
+    padding: 2px 10px;
+    margin: 16px 0 10px 0;
+}
+
+.useful__box {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 28px -2px rgba(0, 0, 0, 0.08);
+    border-radius: 12px;
+    padding: 8px;
+    max-width: 380px;
+}
+
+.useful__box2 {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 28px -2px rgba(0, 0, 0, 0.08);
+    border-radius: 12px;
+    padding: 8px;
+    max-width: 380px;
+}
+
+.useful__box3 {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 28px -2px rgba(0, 0, 0, 0.08);
+    border-radius: 12px;
+    padding: 8px;
+    max-width: 380px;
+}
+
+.useful__inner {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
